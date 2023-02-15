@@ -1,0 +1,26 @@
+/* style.css - Common style sheet for <canvas> examples.
+ * Written by quadfault
+ * 1/21/23
+ */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    height: 100vh;
+
+    background-color: black;
+}
+
+canvas {
+    border: 1px solid white;
+}
+
+button {
+    margin-top: 2em;
+    width: 5em;
+    height: 2em;
+}
